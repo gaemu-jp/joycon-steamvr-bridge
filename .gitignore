@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.log
+*.err
+*.dll
+
+outputs/
+work/openvr/
+work/build-joycon-driver/
+work/steamvr-installed/
+work/build_joycon_driver_inner.ps1
+work/steamvr_integration.md
+

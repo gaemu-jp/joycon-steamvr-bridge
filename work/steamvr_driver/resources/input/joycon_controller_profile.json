@@ -1,0 +1,14 @@
+{
+  "jsonid": "input_profile",
+  "controller_type": "joycon_controller",
+  "compatibility_mode_controller_type": "vive_controller",
+  "input_bindingui_mode": "controller_handed",
+  "input_source": {
+    "/input/trigger": { "type": "trigger", "order": 1 },
+    "/input/grip": { "type": "button", "order": 2 },
+    "/input/menu": { "type": "button", "order": 3 },
+    "/input/application_menu": { "type": "button", "order": 4 },
+    "/input/thumbstick": { "type": "joystick", "order": 5, "click": true, "touch": true }
+  },
+  "default_bindings": []
+}

@@ -1,0 +1,11 @@
+{
+  "alwaysActivate": true,
+  "name": "joycon",
+  "directory": "",
+  "resourceOnly": false,
+  "hasCamera": false,
+  "noServerShutdown": false,
+  "preferUpperDeviceIndices": false,
+  "activateMultipleDrivers": true
+}
+

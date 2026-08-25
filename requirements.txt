@@ -1,0 +1,4 @@
+hidapi==0.15.0
+joycon-python==0.2.4
+PyGLM==2.8.3
+
