@@ -14,6 +14,14 @@ This is an archived prototype, not a finished replacement for a tracked VR
 controller. Position quality depends on XR Animator camera tracking, Joy-Con
 yaw can drift, and the orientation mapping was tuned experimentally.
 
+> [!WARNING]
+> This project installs an experimental third-party driver into SteamVR and
+> starts background bridge processes. Review the scripts before running them,
+> close SteamVR before installing or replacing the driver, and use this project
+> at your own risk. It may cause SteamVR startup failures, controller conflicts,
+> tracking errors, or require manual driver removal. It is not affiliated with
+> or endorsed by Nintendo, Valve, or XR Animator.
+
 ## Data Flow
 
 ```text
@@ -100,3 +108,15 @@ Recenter also resets the VMC drift-correction reference for that hand.
 - Input bindings use Vive compatibility and may need per-game customization.
 - The orientation conversion contains empirical sign corrections from the original hardware tests.
 
+## Privacy And Repository Hygiene
+
+Runtime logs can contain timestamps, controller input, tracking poses, local
+paths, and device diagnostics. Do not attach or commit logs without reviewing
+them first. The repository ignores logs, generated DLLs, SDK downloads, build
+directories, caches, and installed-driver output by default.
+
+## License
+
+Released under the [MIT License](LICENSE). The software is provided as-is,
+without warranty. Third-party projects and dependencies remain subject to
+their own licenses and trademarks.
